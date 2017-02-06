@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "Ising_configuration", "Ising_configuration\Ising_configuration.vfproj", "{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ising_configuration_2", "Ising_configuration_2\Ising_configuration_2.vcxproj", "{5CED1B81-B592-40EA-A568-544889E90E4E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "make_train_data", "make_train_data\make_train_data.pyproj", "{C243E659-A1FC-466F-9970-6612AF736BD4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MNIST_test", "MNIST_test\MNIST_test.pyproj", "{8E23B661-8510-44A4-B342-CE029B555F1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Debug|Win32.Build.0 = Debug|Win32
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Release|Win32.ActiveCfg = Release|Win32
+		{B4974AF0-7D08-4060-BDD3-CA59F9384B9B}.Release|Win32.Build.0 = Release|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Debug|Win32.Build.0 = Debug|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Release|Any CPU.ActiveCfg = Release|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Release|Win32.ActiveCfg = Release|Win32
+		{5CED1B81-B592-40EA-A568-544889E90E4E}.Release|Win32.Build.0 = Release|Win32
+		{C243E659-A1FC-466F-9970-6612AF736BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C243E659-A1FC-466F-9970-6612AF736BD4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C243E659-A1FC-466F-9970-6612AF736BD4}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C243E659-A1FC-466F-9970-6612AF736BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C243E659-A1FC-466F-9970-6612AF736BD4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C243E659-A1FC-466F-9970-6612AF736BD4}.Release|Win32.ActiveCfg = Release|Any CPU
+		{8E23B661-8510-44A4-B342-CE029B555F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E23B661-8510-44A4-B342-CE029B555F1E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8E23B661-8510-44A4-B342-CE029B555F1E}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{8E23B661-8510-44A4-B342-CE029B555F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E23B661-8510-44A4-B342-CE029B555F1E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8E23B661-8510-44A4-B342-CE029B555F1E}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
