@@ -42,6 +42,7 @@ print(labels)
 
 np.savez('./Ising_N10_20000',images=images,labels=labels)
 
+
 #data=np.load('./savetest.npz')
 #y=np.random.random_sample((3,4))
 #print(data['y'])
